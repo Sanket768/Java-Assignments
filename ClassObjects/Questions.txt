@@ -1,0 +1,139 @@
+Chapter 4: Java Classes & Objects
+Basic Class and Object Creation
+1. Hello World Class
+Create a class HelloWorld with a method that prints "Hello, World!" when called.
+2. Student Details
+Create a Student class with attributes like name, age, and roll number. Create objects and display the details.
+3. Rectangle Area
+Create a class Rectangle with methods to calculate area and perimeter. Accept the dimensions via a constructor.
+4. Simple Calculator
+Create a Calculator class with methods for addition, subtraction, multiplication, and division.
+5. Bank Account Simulation
+Create a BankAccount class with attributes like account number, balance, deposit, and withdraw methods.
+
+
+Constructors
+6. Parameterized Constructor
+Create a class Circle with a constructor that accepts the radius and calculates the area and circumference.
+7. Default Constructor
+Write a Person class with a default constructor that initializes default values.
+8. Overloaded Constructor
+Implement a Car class with multiple constructors to handle different sets of attributes.
+Encapsulation
+9. Encapsulated Class
+Create a class Employee with private attributes like name, id, and salary. Provide getter and setter methods.
+10. Validation in Setters
+Modify the Employee class to validate the salary (e.g., must be positive).
+
+
+Inheritance
+11. Single Inheritance
+Create a base class Animal with a method eat(). Create a derived class Dog that adds a bark() method.
+12. Multilevel Inheritance
+Create a class hierarchy:
+o Vehicle → Car → ElectricCar.
+13. Method Overriding
+Write a program to demonstrate method overriding in a parent and child class.
+14. Super Keyword
+Create a parent class Person with a method display(). Use super to call it in the child class Student.
+Polymorphism
+15. Method Overloading
+Write a program to create a MathOperations class that overloads a method for addition of integers, doubles, and arrays.
+16. Dynamic Polymorphism
+Create an interface Shape with a method draw(). Implement it in Circle, Rectangle, and Triangle.
+Abstraction
+17. Abstract Class
+Create an abstract class Shape with an abstract method area(). Implement it in Circle and Square.
+18. Interface Implementation
+Create an interface Payment with methods pay() and refund(). Implement it in classes CreditCard and UPI.
+Static Members
+19. Static Variables
+Write a program to count the number of objects created using a static variable.
+20. Static Methods
+Create a utility class MathUtils with static methods for common operations like factorial(), power(), etc.
+
+
+Relationships Between Classes
+21. Association
+Create a Library class and a Book class. Link them via an association.
+22. Aggregation
+Create a Department class and an Employee class. Represent the "has-a" relationship.
+23. Composition
+Create a Car class that contains an Engine class as a part of its composition.
+Real-World Scenarios
+24. Student Grade System
+Create a Student class to store marks. Add methods to calculate and display the grade.
+25. E-commerce Product
+Create a Product class with attributes like name, price, and stock. Add methods to handle stock updates.
+26. Bank Loan System
+Create a Loan class with attributes for principal, interest rate, and tenure. Add methods to calculate EMI.
+27. Shopping Cart
+Create a Cart class that contains a list of Product objects. Add methods to calculate the total cost.
+
+
+File Handling in Classes
+28. Write to File
+Create a class FileWriterDemo to write object details to a file.
+29. Read from File
+Create a class FileReaderDemo to read and display object details from a file.
+Advanced Concepts
+30. Singleton Class
+Create a Logger class as a singleton to maintain a single instance throughout the program.
+31. Immutable Class
+Create an immutable Student class with final attributes and no setters.
+32. Inner Classes
+Create a University class with an inner class Department.
+33. Anonymous Classes
+Use an anonymous inner class to implement an interface or extend a class.
+34. Enum Example
+Create an enum for days of the week and display activities based on the day.
+Array of Objects
+35. Store Student Objects
+Create an array of Student objects and display their details.
+36. Manage Library Books
+Create an array of Book objects to manage a library.
+
+
+Exception Handling in Classes
+37. Custom Exceptions
+Create a custom exception InsufficientBalanceException and handle it in a BankAccount class.
+38. Exception Propagation
+Demonstrate exception propagation in a class method.
+Collections in Classes
+39. ArrayList Example
+Create a School class to manage a list of students using ArrayList.
+40. HashMap Example
+Create a Dictionary class that stores word-meaning pairs using HashMap.
+Serialization
+41. Object Serialization
+Serialize and deserialize an object of the Employee class.
+
+
+Comparable and Comparator
+42. Sorting Objects
+Implement Comparable to sort students by marks. Use Comparator to sort by name.
+
+
+Functional Programming
+43. Lambda Expressions
+Write a program to filter and display employees earning above a certain amount using lambdas.
+44. Stream API
+Use the Stream API to process a list of Product objects (e.g., filter, map, and reduce).
+
+
+Design Patterns
+45. Factory Pattern
+Implement a ShapeFactory to create objects of different shapes.
+46. Builder Pattern
+Create a Pizza class using the Builder design pattern.
+
+
+Multi-threading in Classes
+47. Thread Class
+Extend the Thread class to create a counter.
+48. Runnable Interface
+Implement Runnable to perform multiple tasks in threads.
+49. Thread Synchronization
+Create a program with synchronized methods to avoid race conditions.
+50. Producer-Consumer Problem
+Solve the producer-consumer problem using threads and synchronization.

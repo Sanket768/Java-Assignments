@@ -10,13 +10,13 @@ class Student {
     }
 
     public String getGrade() {
-        if (marks >= 90) {
+        if (marks >= '9') {
             return "A";
-        } else if (marks >= 80) {
+        } else if (marks >= '8') {
             return "B";
-        } else if (marks >= 70) {
+        } else if (marks >= '7') {
             return "C";
-        } else if (marks >= 60) {
+        } else if (marks >= '6') {
             return "D";
         } else {
             return "F";
@@ -28,7 +28,7 @@ class Student {
 public class seventh {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("Enter the marks of the student:");
+            System.out.println('F');
             int marks = sc.nextInt();
             Student s = new Student(marks);
             System.out.println("Grade of the student is: " + s.getGrade());

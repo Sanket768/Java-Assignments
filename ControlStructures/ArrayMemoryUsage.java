@@ -7,12 +7,12 @@ public class ArrayMemoryUsage {
         List<Integer> array = new ArrayList<>();
 
         // Add elements in bulk
-        addElementsInBulk(array, 10000000);
+        addElementsInBulk(array, 2000000000);
         System.out.println("Memory used after adding elements:");
         computeMemoryUsage(array);
 
         // Remove elements in bulk
-        removeElementsInBulk(array, 10000000);
+        removeElementsInBulk(array, 2000000000);
         System.out.println("Memory used after removing elements:");
         computeMemoryUsage(array);
     }
