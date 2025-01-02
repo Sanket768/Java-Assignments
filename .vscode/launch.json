@@ -1,0 +1,210 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Que37",
+            "request": "launch",
+            "mainClass": "Que37",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Chapter1.Q1",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q10",
+            "request": "launch",
+            "mainClass": "Chapter1.Q10",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Chapter1.Q2",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "Chapter1.Q3",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "Chapter1.Q4",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "Chapter1.Q5",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q6",
+            "request": "launch",
+            "mainClass": "Chapter1.Q6",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q7",
+            "request": "launch",
+            "mainClass": "Chapter1.Q7",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q8",
+            "request": "launch",
+            "mainClass": "Chapter1.Q8",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q9",
+            "request": "launch",
+            "mainClass": "Chapter1.Q9",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q1(1)",
+            "request": "launch",
+            "mainClass": "Q1",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q10(1)",
+            "request": "launch",
+            "mainClass": "Q10",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q2(1)",
+            "request": "launch",
+            "mainClass": "Q2",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q3(1)",
+            "request": "launch",
+            "mainClass": "Q3",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q4(1)",
+            "request": "launch",
+            "mainClass": "Q4",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q5(1)",
+            "request": "launch",
+            "mainClass": "Q5",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q6(1)",
+            "request": "launch",
+            "mainClass": "Q6",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q7(1)",
+            "request": "launch",
+            "mainClass": "Q7",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q8(1)",
+            "request": "launch",
+            "mainClass": "Q8",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Q9(1)",
+            "request": "launch",
+            "mainClass": "Q9",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que1",
+            "request": "launch",
+            "mainClass": "Que1",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que2",
+            "request": "launch",
+            "mainClass": "Que2",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que3",
+            "request": "launch",
+            "mainClass": "Que3",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que4",
+            "request": "launch",
+            "mainClass": "Que4",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que5",
+            "request": "launch",
+            "mainClass": "Que5",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que6",
+            "request": "launch",
+            "mainClass": "Que6",
+            "projectName": "Java Assignment_b98a5294"
+        },
+        {
+            "type": "java",
+            "name": "Que7",
+            "request": "launch",
+            "mainClass": "Que7",
+            "projectName": "Java Assignment_b98a5294"
+        }
+    ]
+}
