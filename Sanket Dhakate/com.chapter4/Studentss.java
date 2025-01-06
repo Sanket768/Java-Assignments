@@ -1,0 +1,19 @@
+/* Create an immutable Student class with final attributes and no setters. */
+
+public final class Studentss {
+    private final String name;
+    private final int age;
+
+    public Studentss(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
