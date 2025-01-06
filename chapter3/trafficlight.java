@@ -26,7 +26,7 @@ public class trafficlight {
                     break;
                 case 4:
                     System.out.println("Exiting ");
-                    return;
+                return;
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }

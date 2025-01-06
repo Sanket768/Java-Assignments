@@ -5,7 +5,7 @@ public class atmstimulator {
     
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    int balance = 1000; 
+    int balance = 15000; 
     int choice;
 
     do {
