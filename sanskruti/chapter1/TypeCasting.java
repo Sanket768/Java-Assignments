@@ -1,5 +1,5 @@
 /* Demonstate the type casting (implicit and explicit) between  int ,float and double */
-package chapter1;
+
 
 public class TypeCasting {
     public static void main(String[]args){

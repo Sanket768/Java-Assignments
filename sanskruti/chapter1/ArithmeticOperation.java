@@ -1,5 +1,5 @@
 /* perform arithmetic operation (+,-,*,/,%) on two number and display the result */
-package chapter1;
+
 
 public class ArithmeticOperation {
     public static void main ( String[]args){
