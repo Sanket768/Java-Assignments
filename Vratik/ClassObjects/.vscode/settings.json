@@ -1,0 +1,29 @@
+{
+    "editor.suggestOnTriggerCharacters": false,
+    "gitlab.duoCodeSuggestions.enabledSupportedLanguages": {
+        "c": false,
+        "cpp": false,
+        "csharp": true,
+        "go": true,
+        "haml": true,
+        "handlebars": true,
+        "java": false,
+        "javascript": false,
+        "javascriptreact": false,
+        "kotlin": true,
+        "python": false,
+        "php": true,
+        "ruby": true,
+        "rust": true,
+        "scala": true,
+        "shellscript": true,
+        "sql": false,
+        "swift": true,
+        "typescript": true,
+        "typescriptreact": true,
+        "svelte": true,
+        "terraform": true,
+        "terragrunt": true,
+        "vue": true
+    }
+}

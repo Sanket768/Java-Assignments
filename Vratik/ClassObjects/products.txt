@@ -1,0 +1,10 @@
+Product Name: Laptop
+Quantity: 10
+Unit Price: 10000.0
+Total Cost: 100000.0
+
+Product Name: Lamborghini
+Quantity: 5
+Unit Price: 1.0E7
+Total Cost: 5.0E7
+
