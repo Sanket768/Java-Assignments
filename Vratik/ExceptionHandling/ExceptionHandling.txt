@@ -1,0 +1,128 @@
+[3:10 pm, 16/1/2025] Jitendra Thakur: Chapter 6: Exception Handling
+Basic Exception Handling
+1. Divide by Zero
+Write a program to handle ArithmeticException when dividing a number by zero.
+2. Array Index Out of Bounds
+Create a program that catches and handles ArrayIndexOutOfBoundsException.
+3. Null Pointer Exception
+Write a program to handle NullPointerException when calling a method on a null 
+object.
+4. Number Format Exception
+Create a program to handle NumberFormatException when converting a string to a 
+number.
+5. Multiple Exceptions
+Write a program to handle multiple exceptions in a single try block.
+Nested Try-Catch
+6. Nested Try Block
+Write a program to demonstrate nested try-catch blocks where one try block is 
+inside another.
+7. Inner Exception Handling
+Create a program to handle a specific exception inside an inner try block and another 
+in an outer block.
+Finally Block
+8. Using Finally
+Write a program to demonstrate the use of the finally block to ensure that a resource 
+is always closed.
+9. Exception with Finally
+Show the execution of a finally block even if an exception is not thrown.
+Custom Exception Handling
+10. Custom Exception
+Create a custom exception InvalidAgeException and throw it when a user enters an 
+invalid age.
+11. Banking System
+Implement a custom exception InsufficientFundsException in a banking 
+application to handle withdrawal errors.
+Throw and Throws
+12. Throw Example
+Write a program that uses the throw keyword to explicitly throw an exception.
+[3:10 pm, 16/1/2025] Jitendra Thakur: 13. Throws Example
+Create a program to declare exceptions using the throws keyword and handle them in 
+the calling method.
+Chained Exceptions
+14. Chained Exceptions
+Demonstrate the use of chained exceptions by linking one exception to another.
+Checked and Unchecked Exceptions
+15. Checked Exception
+Write a program to demonstrate a checked exception, like IOException, using file 
+operations.
+16. Unchecked Exception
+Demonstrate an unchecked exception, like ArithmeticException, and handle it 
+appropriately.
+Exception Propagation
+17. Propagating Exceptions
+Create a program to demonstrate exception propagation through method calls.
+18. Handling Propagation
+Write a program where an exception is thrown in a method and handled in the caller 
+method.
+Advanced Exception Handling
+19. Try with Resources
+Demonstrate the use of try-with-resources for automatic resource management.
+20. Logging Exceptions
+Write a program to log exception details using Java's Logger class.
+21. Re-throwing Exceptions
+Create a program to re-throw an exception after catching it for additional processing.
+22. Stack Trace Example
+Write a program to print the stack trace of an exception using printStackTrace().
+Real-World Scenarios
+23. File Handling
+Write a program to handle FileNotFoundException when reading from a file.
+24. Array Sorting
+Handle exceptions while sorting an array with invalid or null elements.
+25. User Input Validation
+Write a program to validate user input for age, handling invalid values using 
+exceptions.
+26. Authentication System
+Create a login system that throws a custom AuthenticationFailedException for 
+invalid credentials.
+[3:10 pm, 16/1/2025] Jitendra Thakur: 27. E-commerce Application
+Handle InvalidProductException when a user selects an unavailable product.
+28. Matrix Operations
+Create a program to handle exceptions during matrix addition and multiplication.
+Threads and Exceptions
+29. Thread Exception Handling
+Write a program to handle exceptions occurring in a thread.
+30. Thread Pool Exceptions
+Handle exceptions in tasks submitted to a thread pool.
+Collection Framework Exceptions
+31. Concurrent Modification Exception
+Demonstrate and handle ConcurrentModificationException when modifying a 
+collection while iterating.
+32. Unsupported Operation Exception
+Write a program to handle UnsupportedOperationException in an unmodifiable 
+collection.
+33. Class Cast Exception
+Handle ClassCastException when working with collections of different types.
+Database Exceptions
+34. SQLException Handling
+Write a program to connect to a database and handle SQLException.
+35. Invalid Query Exception
+Handle exceptions caused by invalid SQL queries or connection failures.
+Custom Application Scenarios
+36. Employee Management System
+Create a program to handle exceptions 
+like InvalidSalaryException or EmployeeNotFoundException.
+37. Banking Application
+Handle overdraft scenarios using custom exceptions.
+38. Library Management System
+Write a program to handle scenarios 
+like BookNotAvailableException or MemberLimitExceededException.
+39. Flight Booking System
+Create custom exceptions for scenarios 
+like FlightNotFoundException or SeatUnavailableException.
+40. Shopping Cart
+Handle exceptions like EmptyCartException or InvalidCouponCodeException.
+[3:11 pm, 16/1/2025] Jitendra Thakur: Miscellaneous
+41. Retry Logic
+Implement retry logic for exception scenarios like network failures.
+42. Exception in Recursion
+Write a recursive method and handle exceptions like stack overflow or invalid input.
+43. Parallel Processing Exceptions
+Handle exceptions that occur during parallel processing using 
+the ForkJoinPool framework.
+44. API Integration
+Write a program to handle HTTP exceptions using custom exception classes.
+Testing Exception Handling
+45. JUnit Testing for Exceptions
+Write test cases using JUnit to verify exception handling in your methods.
+46. Mock Exception Scenarios
+Simulate exception scenarios in a program to test robustness.

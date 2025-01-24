@@ -1,0 +1,129 @@
+Chapter 5: Inheritance & Polymorphism
+Single Inheritance
+1. Animal Class
+Create a base class Animal with a method eat(). Derive a class Dog with an 
+additional method bark().
+2. Person-Student Relationship
+Create a base class Person with attributes like name and age. Extend it to create 
+a Student class with attributes like roll number and marks.
+3. Shape Hierarchy
+Create a base class Shape with a method area(). Extend it to 
+create Circle and Rectangle classes that implement their own versions of area().
+
+Multilevel Inheritance
+4. Vehicle Hierarchy
+Create a class Vehicle with a method move(). Extend it to Car and then 
+to ElectricCar, adding new methods at each level.
+5. Employee Hierarchy
+Create a base class Employee with a method calculateSalary(). Extend it 
+to Manager and then to SeniorManager, overriding and enhancing the salary 
+calculation.
+
+Hierarchical Inheritance
+6. Appliances Example
+Create a base class Appliance. Extend it to Fan, AirConditioner, 
+and Refrigerator, each with its own method.
+7. Sports Example
+Create a class Sport. Extend it to Football, Cricket, and Basketball, each with 
+their own attributes and methods.
+
+Method Overriding
+8. Vehicle Example
+Create a base class Vehicle with a method fuelEfficiency(). Override it in 
+subclasses Bike and Car to provide specific implementations.
+9. Payment System
+Create a base class Payment with a method processPayment(). Override it in 
+subclasses CreditCardPayment and UPIPayment.
+
+Super Keyword
+10. Calling Parent Methods
+Create a Parent class with a method display(). Extend it in a Child class and use 
+the super keyword to call the parent’s display() method.
+11. Accessing Parent Attributes
+Create a class Employee with attributes like name and id. Extend it in Manager and 
+use super to initialize parent class attributes.
+
+Polymorphism Practice Programs
+
+Compile-Time Polymorphism (Method Overloading)
+12. Calculator Class
+Overload methods for add() to accept different numbers and types of arguments (int, 
+double, etc.).
+13. Shape Example
+Overload a method draw() in the Shape class to handle different numbers of 
+parameters (e.g., radius, length and width).
+
+Run-Time Polymorphism (Method Overriding)
+14. Dynamic Shapes
+Create a base class Shape with a method draw(). Override it in 
+subclasses Circle and Rectangle and demonstrate runtime polymorphism.
+15. Zoo Example
+Create a base class Animal with a method makeSound(). Override it in subclasses 
+like Dog, Cat, and Bird.
+Abstract Classes
+16. Abstract Shape Class
+Create an abstract class Shape with an abstract method area(). Extend it 
+in Circle and Triangle to implement their specific areas.
+17. Employee Example
+Create an abstract class Employee with an abstract method calculateSalary(). 
+Implement it in PermanentEmployee and ContractEmployee.
+Interfaces
+18. Payment Interface
+Create an interface Payment with methods pay() and refund(). Implement it in 
+classes CreditCard and Wallet.
+19. Game Interface
+Create an interface Game with methods start() and end(). Implement it 
+in Cricket and Football.
+
+
+Casting and Type Checking
+20. Downcasting
+Write a program to demonstrate downcasting of objects from a parent class to a child 
+class.
+21. instanceof Operator
+Create a class hierarchy and use instanceof to determine the actual object type at 
+runtime.
+
+
+Object Arrays
+22. Employee Array
+Create an array of Employee objects and display the details using polymorphism.
+23. Shape Array
+Create an array of Shape objects (Circle, Rectangle) and call their 
+respective draw() and area() methods using a loop.
+
+
+Real-World Examples
+24. Library Management
+Create a LibraryItem class with subclasses Book and Magazine. Implement 
+polymorphic methods for checkout().
+25. E-commerce System
+Create a Product base class with subclasses Electronics, Clothing, and Grocery. 
+Implement polymorphism to calculate shipping charges.
+26. Banking System
+Create a BankAccount class with methods deposit() and withdraw(). Override 
+these methods in SavingsAccountand CurrentAccount.
+27. Vehicle Showroom
+Create a Vehicle class with subclasses Car, Bike, and Truck. Implement 
+polymorphic methods to calculate insurance premiums.
+
+
+Dynamic Binding
+28. Employee Bonus
+Demonstrate dynamic binding by calculating bonuses for employees of different types 
+(Manager, Developer).
+29. Transport System
+Use dynamic binding to calculate fares for different modes of transport 
+(Bus, Train, Flight).
+
+
+Real-Life Scenarios
+30. Order Management
+Create an Order class with subclasses OnlineOrder and OfflineOrder. Implement 
+polymorphic methods for calculateTotal().
+31. School Management
+Create a Person class with subclasses Student and Teacher. Implement polymorphic 
+methods for displayRole().
+32. Travel Booking
+Create a Travel class with subclasses Flight, Bus, and Train. Demonstrate 
+polymorphism in ticket booking and cancellation.
