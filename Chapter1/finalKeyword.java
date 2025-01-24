@@ -12,7 +12,7 @@ final class fk {
     }
 }
 
-class finalKeyword {
+public class finalKeyword {
     public static void main(String[] args) {
         fk f = new fk();
         f.fn();

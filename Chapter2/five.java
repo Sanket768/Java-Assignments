@@ -28,7 +28,9 @@ class cylinder extends volume{
 }
 class cone extends volume{
 
-    public cone(){
+    public cone(double height, double radius){
+        this.height = height;
+        this.radius = radius;
     }
     public void vol(){
         double volume = Math.PI*radius*radius*height/3;
@@ -38,6 +40,7 @@ class cone extends volume{
 
 class five {
     public static void main(String[] args) {
-        
+        cone c = new cone(29340324,03940234234023.3409304);
+        c.vol();
     }
 }

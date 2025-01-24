@@ -21,7 +21,7 @@ class ap {
 
     public void area(){
         area = a*b;
-        System.out.println("Area os rectangle is: " + area);
+        System.out.println("Area of rectangle is: " + area);
     }
     public void peri(){
         peri = 2*(a+b);

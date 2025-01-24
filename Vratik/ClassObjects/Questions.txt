@@ -60,6 +60,8 @@ Create a Library class and a Book class. Link them via an association.
 Create a Department class and an Employee class. Represent the "has-a" relationship.
 23. Composition
 Create a Car class that contains an Engine class as a part of its composition.
+
+
 Real-World Scenarios
 24. Student Grade System
 Create a Student class to store marks. Add methods to calculate and display the grade.
@@ -76,6 +78,8 @@ File Handling in Classes
 Create a class FileWriterDemo to write object details to a file.
 29. Read from File
 Create a class FileReaderDemo to read and display object details from a file.
+
+
 Advanced Concepts
 30. Singleton Class
 Create a Logger class as a singleton to maintain a single instance throughout the program.
@@ -104,6 +108,8 @@ Collections in Classes
 Create a School class to manage a list of students using ArrayList.
 40. HashMap Example
 Create a Dictionary class that stores word-meaning pairs using HashMap.
+
+
 Serialization
 41. Object Serialization
 Serialize and deserialize an object of the Employee class.

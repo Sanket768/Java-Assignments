@@ -29,5 +29,5 @@ class one {
     public static void main(String[] args) {
         operations o = new operations();
         o.oper();
-    }    
+    }
 }

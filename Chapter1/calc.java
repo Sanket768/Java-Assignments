@@ -48,5 +48,5 @@ class calc {
     public static void main(String[] args) {
         calculate c = new calculate();
         c.operation();
-    }    
+    }
 }
