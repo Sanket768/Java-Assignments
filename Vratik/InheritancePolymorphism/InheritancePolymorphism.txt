@@ -67,6 +67,7 @@ in Circle and Triangle to implement their specific areas.
 17. Employee Example
 Create an abstract class Employee with an abstract method calculateSalary(). 
 Implement it in PermanentEmployee and ContractEmployee.
+
 Interfaces
 18. Payment Interface
 Create an interface Payment with methods pay() and refund(). Implement it in 
@@ -78,11 +79,9 @@ in Cricket and Football.
 
 Casting and Type Checking
 20. Downcasting
-Write a program to demonstrate downcasting of objects from a parent class to a child 
-class.
+Write a program to demonstrate downcasting of objects from a parent class to a child class.
 21. instanceof Operator
-Create a class hierarchy and use instanceof to determine the actual object type at 
-runtime.
+Create a class hierarchy and use instanceof to determine the actual object type at runtime.
 
 
 Object Arrays
